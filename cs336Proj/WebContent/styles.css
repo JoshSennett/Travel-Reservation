@@ -1,0 +1,118 @@
+body{
+	text-align: center;
+}
+.login{
+	margin: auto;
+}
+.questionBox{
+	margin: auto;
+	text-align: left;
+	border: 1px solid black;
+	height: 10%;
+	width: 75%;
+	padding: 5px;
+}
+.questionTitle{
+	font-size: 130%;
+	font-weight: bold;
+	word-wrap: break-word;
+}
+.content{
+	width: 90%;
+	word-wrap: break-word;
+}
+.biggerQuestionBox{
+	margin: auto;
+	text-align: left;
+	border: 1px solid black;
+	height: 10%;
+	width: 88%;
+	padding: 7px;
+}
+.biggerQuestionTitle{
+	font-size: 160%;
+	font-weight: bold;
+	word-wrap: break-word;
+}
+.answerQuestionBtn{
+	border-radius: 50px;
+	border: 0.3px solid gray;
+	background-color: #ededed;
+	padding: 5px;
+	cursor: pointer;
+	display: inline-block;
+}
+.answerQuestionBtn:hover{
+	background-color: white;
+}
+.pageNavigator{
+	margin: auto;
+	text-align: center;
+}
+button.pageNavigatorItem{
+	background-color: white;
+}
+.btn{
+	border: none;
+	background-color: inherit;
+	padding: 5px;
+	cursor: pointer;
+	display: inline-block;
+}
+.btn:hover{
+	background-color: gray;
+}
+.dropButton{
+	cursor: pointer;
+	background-color: #ededed;
+	color: black;
+	padding: 5px;
+	border: none;
+}
+.dropButton:hover{
+	background-color: #edece8;
+}
+.dropdown{
+	position: relative;
+	display: inline-block;
+}
+.dropdownContent{
+	background-color: #edece8;
+	display: none;
+	position: absolute;
+	width: 100px;
+	z-index: 1;
+}
+.dropdownContent span{
+	padding: 5px;
+	display: block;
+	cursor: pointer;
+}
+.dropdownContent span:hover{
+	background-color: white;
+	cursor: pointer;
+}
+.show{
+	display: block;
+}
+.ticketBox{
+	margin: auto;
+	text-align: left;
+	border: 1px solid black;
+	height: 10%;
+	width: 75%;
+	padding: 5px;
+	margin-top: 5px;
+	margin-bottom: 20px;
+}
+.ticketBoxTitle{
+	font-size: 130%;
+	font-weight: bold;
+	word-wrap: break-word;
+}
+.ticketTable td{
+	padding: 15px;
+}
+.flight_search_indicator{
+	border-right: 1px solid black;
+}
